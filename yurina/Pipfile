@@ -1,13 +1,15 @@
 [[source]]
 
-verify_ssl = true
 url = "https://pypi.python.org/simple"
+verify_ssl = true
 name = "pypi"
 
 
 [packages]
 
-django = "*"
+"beautifulsoup4" = "*"
+"jpype1" = "*"
+konlpy = "*"
 
 
 [dev-packages]

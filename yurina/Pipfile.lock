@@ -1,0 +1,54 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "8a4b60228320267171a627ce1a3374897930773ecf78808443e55898bfdddd54"
+        },
+        "host-environment-markers": {
+            "implementation_name": "cpython",
+            "implementation_version": "3.5.2",
+            "os_name": "posix",
+            "platform_machine": "x86_64",
+            "platform_python_implementation": "CPython",
+            "platform_release": "4.4.0-59-generic",
+            "platform_system": "Linux",
+            "platform_version": "#80-Ubuntu SMP Fri Jan 6 17:47:47 UTC 2017",
+            "python_full_version": "3.5.2",
+            "python_version": "3.5",
+            "sys_platform": "linux"
+        },
+        "pipfile-spec": 6,
+        "requires": {},
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.python.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "beautifulsoup4": {
+            "hashes": [
+                "sha256:7015e76bf32f1f574636c4288399a6de66ce08fb7b2457f628a8d70c0fbabb11",
+                "sha256:11a9a27b7d3bddc6d86f59fb76afb70e921a25ac2d6cc55b40d072bd68435a76",
+                "sha256:808b6ac932dccb0a4126558f7dfdcf41710dd44a4ef497a0bb59a77f9f078e89"
+            ],
+            "version": "==4.6.0"
+        },
+        "jpype1": {
+            "hashes": [
+                "sha256:99206412d80b9d5a81a7cc205267ca63554403eb57f13420302e2f39bfad7f25"
+            ],
+            "version": "==0.6.2"
+        },
+        "konlpy": {
+            "hashes": [
+                "sha256:fb5540f6a0fdd3d33c315b81a22a9463b3e2e8137bf5a1f15bdba683b534b01f",
+                "sha256:cf2719207d80a690f352739511036f743d98238bdb137985fc32d315b9600216",
+                "sha256:04a066ff9ed99d946b3d57833fad0a397ab34b4dfd37da24318dad5a1b3dc34b"
+            ],
+            "version": "==0.4.4"
+        }
+    },
+    "develop": {}
+}
