@@ -10,6 +10,7 @@ name = "pypi"
 "beautifulsoup4" = "*"
 "jpype1" = "*"
 konlpy = "*"
+slackclient = "*"
 
 
 [dev-packages]
