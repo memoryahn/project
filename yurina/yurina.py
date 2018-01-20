@@ -6,7 +6,7 @@ import time
 from konlpy.corpus import kolaw
 from konlpy.utils import pprint
 from collections import Counter
-
+import os
 
 
 doc = []
@@ -219,7 +219,7 @@ def sendmsg(ch,msg):
         as_user='true'
         )
         
-token = 'xoxb-299981204626-lmPZg1ggQBOPWON1BQm5e8rQ'#custom
+token = os.environ['slacktoken']#custom
 slack = SlackClient(token)
 bot_name = "yurinabot"
 bot_id=''
