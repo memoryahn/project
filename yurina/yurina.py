@@ -112,7 +112,7 @@ def get_tags(text, ntags=50):
     return_list = []  # 명사 빈도수 저장할 변수
     value_to_remove=['것','때','이','김','곡','더','전','그','왜','일','알','등','좀','요','가','와','등']
     for n, c in count.most_common(ntags):
-            if len(n)>2:
+            if len(n)>1:
                 temp = {'tag': n, 'count': c}
                 return_list.append(temp)
     # most_common 메소드는 정수를 입력받아 객체 안의 명사중 빈도수
