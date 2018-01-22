@@ -188,17 +188,19 @@ def slacksend(ch):
     return
 def sendmsg(ch,msg):
     if msg == '엠팍':
+        rand=['MLBPARK 이슈를 알려드릴게요','현재 엠팍의 이슈는요 잠시만요']
         slack.api_call(
         "chat.postMessage",
         channel=ch,
-        text='MLBPARK 이슈를 알려드릴게요',
+        text=random.chice(rand),
         as_user='true'
         )
     elif msg == '유리나':
+        rand=['저 부르셨어요?','저요?','저 왜요?','저를 언급하셨네요']
         slack.api_call(
         "chat.postMessage",
         channel=ch,
-        text='저 부르셨어요?',
+        text=random.chice(rand),
         as_user='true'
         )
     elif msg == '사망':
@@ -209,18 +211,19 @@ def sendmsg(ch,msg):
         as_user='false'
         )
     elif msg == '입장':
+        rand = ['유리나가 왔어요~','Im back!','저 살아왔어요 ㅠㅠ','유리나 입장!']
         slack.api_call(
         "chat.postMessage",
         channel=ch,
-        text='유리나가 왔어요~',
+        text=random.choice(rand),
         as_user='true'
         )
     elif msg == 'ㅋㅋ':
-        laugh = ['ㅋㅋ','ㅎㅎ','ㅋㅋㅋㅋㅋ','히히','ㅎㅎㅎㅎ']
+        rand = ['ㅋㅋ','ㅎㅎ','ㅋㅋㅋㅋㅋ','히히','ㅎㅎㅎㅎ']
         slack.api_call(
         "chat.postMessage",
         channel=ch,
-        text=random.choice(laugh),
+        text=random.choice(rand),
         as_user='true'
         )
         
@@ -244,13 +247,14 @@ while True:
                 if len(msg) > 0:            
                     for i in msg:
                         iText=str(i.get('text'))
-                        if(iText == '엠팍'):
-                            sendmsg(i.get('channel'),'엠팍')
-                            slacksend(i.get('channel'))
-                        elif '유리나' in iText and i.get('user') != bot_id:
-                            sendmsg(i.get('channel'),'유리나')
-                        elif ('ㅋ' in iText or 'ㅎ' in iText )and i.get('user') != bot_id:
-                            sendmsg(i.get('channel'),'ㅋㅋ')                      
+                        if i.get('user') !='U8S35RTPT' and i.get('user') != 'U8TUV60JE':
+                            if(iText == '엠팍'):
+                                sendmsg(i.get('channel'),'엠팍')
+                                slacksend(i.get('channel'))
+                            elif '유리나' in iText and i.get('user') != bot_id:
+                                sendmsg(i.get('channel'),'유리나')
+                            elif ('ㅋ' in iText or 'ㅎ' in iText )and i.get('user') != bot_id:
+                                sendmsg(i.get('channel'),'ㅋㅋ')                      
                 del msg[:]                       
                 del doc[:]
                 time.sleep(2)             
