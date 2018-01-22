@@ -188,11 +188,11 @@ def slacksend(ch):
     return
 def sendmsg(ch,msg):
     if msg == '엠팍':
-        rand=['MLBPARK 이슈를 알려드릴게요','현재 엠팍의 이슈는요 잠시만요']
+        rand=['MLBPARK 이슈를 알려드릴게요','현재 엠팍의 이슈는요 잠시만요','맨날 이거만시키네']
         slack.api_call(
         "chat.postMessage",
         channel=ch,
-        text=random.chice(rand),
+        text=random.choice(rand),
         as_user='true'
         )
     elif msg == '유리나':
