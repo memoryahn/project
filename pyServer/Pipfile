@@ -8,6 +8,8 @@ name = "pypi"
 [packages]
 
 django = "*"
+firebase-admin = "*"
+python-firebase = "*"
 
 
 [dev-packages]

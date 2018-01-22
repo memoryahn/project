@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gif world!</title>
+    <meta charset='utf-8'/>    
+    {% load staticfiles %}
+    <link rel='stylesheet' href="{% static 'css/bootstrap.min.css' %}" type='text/css'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body class="body" sytle="background-color:#111111">
+{% block content %}    
+<ul >
+    <li>
+        <a  href="#">title and href {{ data }}</a>
+    </li>
+    <li>
+        <a  href="#">title and href {{ data }}</a>
+    </li>
+    <li>
+        <a  href="#">title and href</a>
+    </li>
+{% endblock %}
+</body>
+</html>

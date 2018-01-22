@@ -27,7 +27,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1','localhots','220.230.124.148']
 
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -54,7 +53,7 @@ ROOT_URLCONF = 'pyServer.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['C:\\Users\\memor\\Documents\\project\\pyServer\\yurina\\templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -66,6 +65,7 @@ TEMPLATES = [
         },
     },
 ]
+
 
 WSGI_APPLICATION = 'pyServer.wsgi.application'
 

@@ -7,6 +7,7 @@ from konlpy.corpus import kolaw
 from konlpy.utils import pprint
 from collections import Counter
 import os
+import random
 
 
 doc = []
@@ -110,11 +111,10 @@ def get_tags(text, ntags=50):
     count = Counter(nouns)
     # Counter객체를 생성하고 참조변수 nouns할당
     return_list = []  # 명사 빈도수 저장할 변수
-    value_to_remove=['것','때','이','김','곡','더','전','그','왜','일','알','등','좀','요','가','와','등']
     for n, c in count.most_common(ntags):
-            if len(n)>1:
-                temp = {'tag': n, 'count': c}
-                return_list.append(temp)
+        if len(n)>1:
+            temp = {'tag': n, 'count': c}
+            return_list.append(temp)
     # most_common 메소드는 정수를 입력받아 객체 안의 명사중 빈도수
     # 큰 명사부터 순서대로 입력받은 정수 갯수만큼 저장되어있는 객체 반환
     # 명사와 사용된 갯수를 return_list에 저장합니다.
@@ -215,6 +215,14 @@ def sendmsg(ch,msg):
         text='유리나가 왔어요~',
         as_user='true'
         )
+    elif msg == 'ㅋㅋ':
+        laugh = ['ㅋㅋ','ㅎㅎ','ㅋㅋㅋㅋㅋ','히히']
+        slack.api_call(
+        "chat.postMessage",
+        channel=ch,
+        text=random.choice(laugh),
+        as_user='true'
+        )
         
 token = os.environ['slacktoken']#custom
 slack = SlackClient(token)
@@ -230,23 +238,26 @@ if api_call.get('ok'):
 while True:
     try: 
         if slack.rtm_connect(with_team_state=False):
-            sendmsg('general','입장')
+            sendmsg('test','입장')
             while True:
                 msg=slack.rtm_read()            
                 if len(msg) > 0:            
                     for i in msg:
-                        if(i.get('text') == '엠팍'):
+                        iText=str(i.get('text'))
+                        if(iText == '엠팍'):
                             sendmsg(i.get('channel'),'엠팍')
                             slacksend(i.get('channel'))
-                        elif i.get('text') == '유리나':
-                            sendmsg(i.get('channel'),'유리나')                      
+                        elif '유리나' in iText and i.get('user') != bot_id:
+                            sendmsg(i.get('channel'),'유리나')
+                        elif ('ㅋㅋ' in iText or 'ㅎㅎ' in iText )and i.get('user') != bot_id:
+                            sendmsg(i.get('channel'),'ㅋㅋ')                      
                 del msg[:]                       
                 del doc[:]
                 time.sleep(2)             
         else:
             print("Connection Failed")   
     except :
-        sendmsg('general','사망')   
+        sendmsg('test','사망')   
 # except:
 #     slack.api_call(
 #         "chat.postMessage",
