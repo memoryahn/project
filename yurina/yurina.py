@@ -112,12 +112,9 @@ def get_tags(text, ntags=50):
     return_list = []  # 명사 빈도수 저장할 변수
     value_to_remove=['것','때','이','김','곡','더','전','그','왜','일','알','등','좀','요','가','와','등']
     for n, c in count.most_common(ntags):
-        try:
-            if value_to_remove.index(n) == None:
-                print()            
-        except:
-            temp = {'tag': n, 'count': c}
-            return_list.append(temp)
+            if len(n)>2:
+                temp = {'tag': n, 'count': c}
+                return_list.append(temp)
     # most_common 메소드는 정수를 입력받아 객체 안의 명사중 빈도수
     # 큰 명사부터 순서대로 입력받은 정수 갯수만큼 저장되어있는 객체 반환
     # 명사와 사용된 갯수를 return_list에 저장합니다.
@@ -209,7 +206,7 @@ def sendmsg(ch,msg):
         "chat.postMessage",
         channel=ch,
         text='유리나님이 사망하셨습니다. 곧 다시 태어납니다',
-        as_user='true'
+        as_user='false'
         )
     elif msg == '입장':
         slack.api_call(
