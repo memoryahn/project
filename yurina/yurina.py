@@ -238,7 +238,7 @@ if api_call.get('ok'):
 while True:
     try: 
         if slack.rtm_connect(with_team_state=False):
-            sendmsg('test','입장')
+            sendmsg('general','입장')
             while True:
                 msg=slack.rtm_read()            
                 if len(msg) > 0:            
@@ -257,7 +257,7 @@ while True:
         else:
             print("Connection Failed")   
     except :
-        sendmsg('test','사망')   
+        sendmsg('general','사망')   
 # except:
 #     slack.api_call(
 #         "chat.postMessage",
