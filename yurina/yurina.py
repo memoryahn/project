@@ -200,7 +200,7 @@ def sendmsg(ch,msg):
         slack.api_call(
         "chat.postMessage",
         channel=ch,
-        text=random.chice(rand),
+        text=random.choice(rand),
         as_user='true'
         )
     elif msg == '사망':
@@ -251,7 +251,7 @@ while True:
                             if(iText == '엠팍'):
                                 sendmsg(i.get('channel'),'엠팍')
                                 slacksend(i.get('channel'))
-                            elif '유리나' in iText and i.get('user') != bot_id:
+                            elif '유리나' in iText and i.get('user'):
                                 sendmsg(i.get('channel'),'유리나')
                             elif ('ㅋ' in iText or 'ㅎ' in iText )and i.get('user') != bot_id:
                                 sendmsg(i.get('channel'),'ㅋㅋ')                      
