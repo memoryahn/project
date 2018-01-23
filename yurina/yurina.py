@@ -12,7 +12,7 @@ import random
 
 doc = []
 def mlbparkCrawl(pageNumber):
-    with urllib.request.urlopen("http://mlbpark.donga.com/mp/b.php?p="+str(pageNumber)+"&m=list&b=bullpen&query=&select=&user=") as url:
+    with urllib.request.urlopen(""http://mlbpark.donga.com/mp/b.php?p="+str(pageNumber)+"&m=list&b=bullpen&query=&select=&user=") as url:
         content = url.read()
         soup = BeautifulSoup(content, 'html.parser')    
     bullpen =  soup.find_all('a')
@@ -226,6 +226,14 @@ def sendmsg(ch,msg):
         text=random.choice(rand),
         as_user='true'
         )
+    elif msg == '명령어':
+        rand = ("'엠팍','ㅋ','ㅎ','유리나','명령어'")
+        slack.api_call(
+        "chat.postMessage",
+        channel=ch,
+        text=rand,
+        as_user='true'
+        )    
         
 token = os.environ['slacktoken']#custom
 slack = SlackClient(token)
@@ -252,7 +260,10 @@ while True:
                                 sendmsg(i.get('channel'),'엠팍')
                                 slacksend(i.get('channel'))
                             elif '유리나' in iText and i.get('user'):
-                                sendmsg(i.get('channel'),'유리나')
+                                if '명령어' in iText:
+                                    sendmsg(i.get('channel'),'명령어')
+                                else
+                                    sendmsg(i.get('channel'),'유리나')
                             elif ('ㅋ' in iText or 'ㅎ' in iText )and i.get('user') != bot_id:
                                 sendmsg(i.get('channel'),'ㅋㅋ')                      
                 del msg[:]                       

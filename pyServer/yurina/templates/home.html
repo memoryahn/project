@@ -10,15 +10,23 @@
 <body class="body" sytle="background-color:#111111">
 {% block content %}    
 <ul >
-    <li>
-        <a  href="#">title and href {{ data }}</a>
-    </li>
-    <li>
-        <a  href="#">title and href {{ data }}</a>
-    </li>
-    <li>
-        <a  href="#">title and href</a>
-    </li>
+    {% for n in data %}  
+        <li>
+        <p>{{ n.title }}</p></br>
+        {% for i in n.srcs %} 
+            <p>{{ i }}</p></br>
+            <!-- <img src={{ i }}></br> -->
+        {% endfor %}
+        </li>
+    {% endfor %}
+</ul>
+<ul >
+        {% for t in title %}  
+            <li>
+                <p>{{ t }}</p>
+            </li>
+        {% endfor %}
+    </ul>
 {% endblock %}
 </body>
 </html>
