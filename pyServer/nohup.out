@@ -41,3 +41,69 @@ Quit the server with CONTROL-C.
 201801230013082607b
 201801230013082724b
 201801230013082859b
+[24/Jan/2018 03:07:44] "GET / HTTP/1.1" 200 12731
+[24/Jan/2018 03:07:44] "GET / HTTP/1.1" 200 12731
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 24, 2018 - 03:07:14
+Django version 2.0.1, using settings 'pyServer.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+201801230013079847b
+201801230013080624b
+201801230013080963b
+201801230013081095b
+201801230013081206b
+201801230013081233b
+201801230013081425b
+201801230013081638b
+201801230013081731b
+201801230013081752b
+201801230013081992b
+201801230013082355b
+201801230013082607b
+201801230013082724b
+201801230013082859b
+201801230013079847b
+201801230013080624b
+201801230013080963b
+201801230013081095b
+201801230013081206b
+201801230013081233b
+201801230013081425b
+201801230013081638b
+201801230013081731b
+201801230013081752b
+201801230013081992b
+201801230013082355b
+201801230013082607b
+201801230013082724b
+201801230013082859b
+Traceback (most recent call last):
+  File "manage.py", line 15, in <module>
+    execute_from_command_line(sys.argv)
+  File "/root/.local/share/virtualenvs/pyServer-zuFnwE33/lib/python3.5/site-packages/django/core/management/__init__.py", line 371, in execute_from_command_line
+    utility.execute()
+  File "/root/.local/share/virtualenvs/pyServer-zuFnwE33/lib/python3.5/site-packages/django/core/management/__init__.py", line 317, in execute
+    settings.INSTALLED_APPS
+  File "/root/.local/share/virtualenvs/pyServer-zuFnwE33/lib/python3.5/site-packages/django/conf/__init__.py", line 56, in __getattr__
+    self._setup(name)
+  File "/root/.local/share/virtualenvs/pyServer-zuFnwE33/lib/python3.5/site-packages/django/conf/__init__.py", line 43, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/root/.local/share/virtualenvs/pyServer-zuFnwE33/lib/python3.5/site-packages/django/conf/__init__.py", line 106, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/root/.local/share/virtualenvs/pyServer-zuFnwE33/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 661, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 767, in get_code
+  File "<frozen importlib._bootstrap_external>", line 727, in source_to_code
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/root/project/pyServer/pyServer/settings.py", line 57
+    'APP_DIRS': True,
+              ^
+SyntaxError: invalid syntax
