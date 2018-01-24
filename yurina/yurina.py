@@ -227,7 +227,7 @@ def sendmsg(ch,msg):
         as_user='true'
         )
     elif msg == '명령어':
-        rand = ("'엠팍','ㅋ','ㅎ','유리나','명령어'")
+        rand = ("유리나의 명령어: '엠팍','ㅋ','ㅎ','유리나','명령어'")
         slack.api_call(
         "chat.postMessage",
         channel=ch,
