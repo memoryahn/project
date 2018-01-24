@@ -12,7 +12,7 @@ import random
 
 doc = []
 def mlbparkCrawl(pageNumber):
-    with urllib.request.urlopen(""http://mlbpark.donga.com/mp/b.php?p="+str(pageNumber)+"&m=list&b=bullpen&query=&select=&user=") as url:
+    with urllib.request.urlopen("http://mlbpark.donga.com/mp/b.php?p="+str(pageNumber)+"&m=list&b=bullpen&query=&select=&user=") as url:
         content = url.read()
         soup = BeautifulSoup(content, 'html.parser')    
     bullpen =  soup.find_all('a')
@@ -262,7 +262,7 @@ while True:
                             elif '유리나' in iText and i.get('user'):
                                 if '명령어' in iText:
                                     sendmsg(i.get('channel'),'명령어')
-                                else
+                                else:
                                     sendmsg(i.get('channel'),'유리나')
                             elif ('ㅋ' in iText or 'ㅎ' in iText )and i.get('user') != bot_id:
                                 sendmsg(i.get('channel'),'ㅋㅋ')                      
