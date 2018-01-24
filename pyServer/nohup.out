@@ -1,1 +1,43 @@
 /root/.local/share/virtualenvs/pyServer-zuFnwE33/bin/python3: can't find '__main__' module in 'yurina'
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/pyServer-zuFnwE33/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/root/.local/share/virtualenvs/pyServer-zuFnwE33/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/.local/share/virtualenvs/pyServer-zuFnwE33/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/project/pyServer/yurina/views.py", line 90, in index
+    return render(request, 'home.html', {'data': data,'title':dataTitle})
+  File "/root/.local/share/virtualenvs/pyServer-zuFnwE33/lib/python3.5/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/root/.local/share/virtualenvs/pyServer-zuFnwE33/lib/python3.5/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/root/.local/share/virtualenvs/pyServer-zuFnwE33/lib/python3.5/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: home.html
+[24/Jan/2018 02:18:09] "GET / HTTP/1.1" 500 111542
+Not Found: /favicon.ico
+[24/Jan/2018 02:18:09] "GET /favicon.ico HTTP/1.1" 404 2306
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 24, 2018 - 02:18:00
+Django version 2.0.1, using settings 'pyServer.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+201801230013079847b
+201801230013080624b
+201801230013080963b
+201801230013081095b
+201801230013081206b
+201801230013081233b
+201801230013081425b
+201801230013081638b
+201801230013081731b
+201801230013081752b
+201801230013081992b
+201801230013082355b
+201801230013082607b
+201801230013082724b
+201801230013082859b

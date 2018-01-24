@@ -53,7 +53,7 @@ ROOT_URLCONF = 'pyServer.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['C:\\Users\\memor\\Documents\\project\\pyServer\\yurina\\templates'],
+        'DIRS': ['/root/project/pyServer/yurina/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
