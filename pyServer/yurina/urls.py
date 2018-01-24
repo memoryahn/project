@@ -2,8 +2,9 @@ from django.urls import path
 from . import views
 from firebase_admin import credentials
 import firebase_admin
+import os
 
-cred = credentials.Certificate('C:\\Users\\memor\\Documents\\project\\pyServer\\yurina\\pyserver-ahn-firebase.json')
+cred = credentials.Certificate(os.environ['firebaseToken'])
 firebase_admin.initialize_app(cred, {
     'databaseURL' : 'https://pyserver-ahn.firebaseio.com/'
 })    
