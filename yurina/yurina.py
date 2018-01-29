@@ -8,10 +8,13 @@ from konlpy.utils import pprint
 from collections import Counter
 import os
 import random
+from multiprocessing import Pool,Manager
 
 
-doc = []
+
 def mlbparkCrawl(pageNumber):
+    doct=[]
+    # print(str(pageNumber)+' 번입장')
     with urllib.request.urlopen("http://mlbpark.donga.com/mp/b.php?p="+str(pageNumber)+"&m=list&b=bullpen&query=&select=&user=") as url:
         content = url.read()
         soup = BeautifulSoup(content, 'html.parser')    
@@ -41,7 +44,11 @@ def mlbparkCrawl(pageNumber):
                 resp.append(s.get('href'))
                 # print(s.get('href'))
                 idx += 1
-                doc.append(s.get_text())       
+                doct.append(s.get_text())
+                doct.append(s.get_text())
+                doct.append(s.get_text())
+                doct.append(s.get_text())
+                doct.append(s.get_text())
         except UnicodeEncodeError: 
             print("Errror : %d" % (idx))             
     # return render(request, 'webapp/home.html', {'data': resp})
@@ -56,10 +63,11 @@ def mlbparkCrawl(pageNumber):
             ar_count += 1
             # print('Article '+str(ar_count)+' complet')
             if ar_txt.get_text() != None:         
-                doc.append(ar_txt.get_text())
+                doct.append(ar_txt.get_text())
         except:
-            print('error')
-    print('articles number: '+str(ar_count))
+            print('error'+str(pageNumber)+'저장에러')
+    # print('articles number: '+str(pageNumber)+'완료')
+    return doct
     
 
     
@@ -126,36 +134,43 @@ def main(ch):
     # 분석할 파일
     noun_count = 15
     # 최대 많은 빈도수 부터 20개 명사 추출
-    output_file_name = "mlbparkcount.txt"
+    
     # count.txt 에 저장
-    for i in range(1,11):
-        mlbparkCrawl(i)
-        if i == 5:
-            textmsg='이제 반정도 읽었어요.. 조금만 더 기다려주세요'
-            slack.api_call(
-                "chat.postMessage",
-                channel=ch,
-                text=textmsg,
-                as_user='true'
-            )
+    cc = [1,2,3,4,5,6,7,8,9,10]
+    pool=Pool(processes=4)
+    print('pool in')
+    doc=pool.map(mlbparkCrawl,cc)
+    pool.close()
+    print('end pool')
+    
+    output_file_name = "mlbparkcount.txt"
+
+        # if i == 5:
+        #     textmsg='이제 반정도 읽었어요.. 조금만 더 기다려주세요'
+        #     slack.api_call(
+        #         "chat.postMessage",
+        #         channel=ch,
+        #         text=textmsg,
+        #         as_user='false'
+        #     )
     
     slack.api_call(
         "chat.postMessage",
         channel=ch,
         text='다 됐어요. 검색결과 입니다',
-        as_user='true'
+        as_user='false'
     )
     try:
         open_output_file = open(text_file_name, 'w',-1,"utf-8")
-        docstr = ''.join(doc)
+        docstr = ''.join(str(doc))
         docs=docstr.replace(' ','')
-        open_output_file.write(docstr)
+        open_output_file.write(docs)
         open_output_file.close()
         open_text_file = open(text_file_name, 'r',-1,"utf-8")
         # 분석할 파일을 open     
         text = open_text_file.read() #파일을 읽습니다.    
         tags = get_tags(text, noun_count) # get_tags 함수 실행
-        open_text_file.close()   #파일 close    
+        open_text_file.close()   #파일 close    R
         open_output_file = open(output_file_name, 'w',-1,"utf-8")
             # 결과로 쓰일 count.txt 열기
         msg = []
@@ -168,8 +183,8 @@ def main(ch):
         open_output_file.close()  
         return msg
     except:
-        print('error')
-        return '죄송해요 에러가 났네요 ㅜㅜ'
+        print('error 쓰기에러')
+        return 'error'
 
     # 결과 저장
 
@@ -183,17 +198,18 @@ def slacksend(ch):
     "chat.postMessage",
     channel=ch,
     text=textmsg,
-    as_user='true'
+    as_user='false'
     )
     return
 def sendmsg(ch,msg):
     if msg == '엠팍':
-        rand=['MLBPARK 이슈를 알려드릴게요','현재 엠팍의 이슈는요 잠시만요','맨날 이거만시키네']
+        # rand=['MLBPARK 이슈를 알려드릴게요','현재 엠팍의 이슈는요 잠시만요','맨날 이거만시키네']
+        # rand=['멀티프로세싱 출발']
         slack.api_call(
         "chat.postMessage",
         channel=ch,
-        text=random.choice(rand),
-        as_user='true'
+        text='멀티프로세싱 출발 대결을 시작해보자',
+        as_user='false'
         )
     elif msg == '유리나':
         rand=['저 부르셨어요?','저요?','저 왜요?','저를 언급하셨네요']
@@ -201,7 +217,7 @@ def sendmsg(ch,msg):
         "chat.postMessage",
         channel=ch,
         text=random.choice(rand),
-        as_user='true'
+        as_user='false'
         )
     elif msg == '사망':
         slack.api_call(
@@ -216,7 +232,7 @@ def sendmsg(ch,msg):
         "chat.postMessage",
         channel=ch,
         text=random.choice(rand),
-        as_user='true'
+        as_user='false'
         )
     elif msg == 'ㅋㅋ':
         rand = ['ㅋㅋ','ㅎㅎ','ㅋㅋㅋㅋㅋ','히히','ㅎㅎㅎㅎ']
@@ -224,7 +240,7 @@ def sendmsg(ch,msg):
         "chat.postMessage",
         channel=ch,
         text=random.choice(rand),
-        as_user='true'
+        as_user='false'
         )
     elif msg == '명령어':
         rand = ("유리나의 명령어: '엠팍','ㅋ','ㅎ','유리나','명령어'")
@@ -232,51 +248,56 @@ def sendmsg(ch,msg):
         "chat.postMessage",
         channel=ch,
         text=rand,
-        as_user='true'
+        as_user='false'
         )    
+if __name__ == '__main__':        
+    token = os.environ['slacktoken']#custom
+    slack = SlackClient(token)
+    bot_name = "yurinabot"
+    bot_id=''
+    api_call = slack.api_call("users.list")
+    if api_call.get('ok'):
+        # retrieve all users so we can find our bot
+        users = api_call.get('members')
+        for user in users:
+            if 'name' in user and user.get('name') == bot_name:
+                bot_id=user.get('id')
+
+    while True:
+        try:
+            if slack.rtm_connect(with_team_state=False):
+                sendmsg('general','입장')
+                while True:
+                    msg=slack.rtm_read()            
+                    if len(msg) > 0:            
+                        for i in msg:
+                            iText=str(i.get('text'))
+                            if i.get('user') !='U8S35RTPT' and i.get('user') != 'U8TUV60JE':
+                                if(iText == '엠팍'):
+                                    sendmsg(i.get('channel'),'엠팍')
+                                    slacksend(i.get('channel'))
+                                elif '유리나' in iText and i.get('user'):
+                                    if '명령어' in iText:
+                                        sendmsg(i.get('channel'),'명령어')
+                                    else:
+                                        sendmsg(i.get('channel'),'유리나')
+                                elif ('ㅋ' in iText or 'ㅎ' in iText )and i.get('user') != bot_id:
+                                    sendmsg(i.get('channel'),'ㅋㅋ')                      
+                    del msg[:]                       
+                    # del doc[:]
+                    time.sleep(2)             
+            else:
+                print("Connection Failed")   
+        except :
+            sendmsg('general','사망')   
+
+
+
         
-token = os.environ['slacktoken']#custom
-slack = SlackClient(token)
-bot_name = "yurinabot"
-bot_id=''
-api_call = slack.api_call("users.list")
-if api_call.get('ok'):
-    # retrieve all users so we can find our bot
-    users = api_call.get('members')
-    for user in users:
-        if 'name' in user and user.get('name') == bot_name:
-            bot_id=user.get('id')
-while True:
-    try: 
-        if slack.rtm_connect(with_team_state=False):
-            sendmsg('general','입장')
-            while True:
-                msg=slack.rtm_read()            
-                if len(msg) > 0:            
-                    for i in msg:
-                        iText=str(i.get('text'))
-                        if i.get('user') !='U8S35RTPT' and i.get('user') != 'U8TUV60JE':
-                            if(iText == '엠팍'):
-                                sendmsg(i.get('channel'),'엠팍')
-                                slacksend(i.get('channel'))
-                            elif '유리나' in iText and i.get('user'):
-                                if '명령어' in iText:
-                                    sendmsg(i.get('channel'),'명령어')
-                                else:
-                                    sendmsg(i.get('channel'),'유리나')
-                            elif ('ㅋ' in iText or 'ㅎ' in iText )and i.get('user') != bot_id:
-                                sendmsg(i.get('channel'),'ㅋㅋ')                      
-                del msg[:]                       
-                del doc[:]
-                time.sleep(2)             
-        else:
-            print("Connection Failed")   
-    except :
-        sendmsg('general','사망')   
-# except:
-#     slack.api_call(
-#         "chat.postMessage",
-#         channel='test',
-#         text='유리나 봇이 사망하였습니다 ㅠㅠ',
-#         as_user='true'
-#         )
+    # except:
+    #     slack.api_call(
+    #         "chat.postMessage",
+    #         channel='channel',
+    #         text='유리나 봇이 사망하였습니다 ㅠㅠ',
+    #         as_user='false'
+    #         )

@@ -11,6 +11,7 @@ django = "*"
 firebase-admin = "*"
 python-firebase = "*"
 "beautifulsoup4" = "*"
+django-webpack-loader = "*"
 
 
 [dev-packages]
