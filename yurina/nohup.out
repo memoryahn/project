@@ -1,0 +1,1109 @@
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)
+slackclient.server.SlackConnectionError
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/client.py", line 52, in rtm_connect
+    self.server.rtm_connect(use_rtm_start=with_team_state, **kwargs)
+  File "/root/.local/share/virtualenvs/yurina-qhMjV1yL/lib/python3.5/site-packages/slackclient/server.py", line 76, in rtm_connect
+    raise SlackConnectionError(reply=reply)

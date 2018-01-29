@@ -107,3 +107,675 @@ Traceback (most recent call last):
     'APP_DIRS': True,
               ^
 SyntaxError: invalid syntax
+[24/Jan/2018 03:24:41] "GET / HTTP/1.1" 200 12731
+[24/Jan/2018 03:24:48] "GET / HTTP/1.1" 200 12731
+[24/Jan/2018 03:25:39] "GET / HTTP/1.1" 200 12731
+[24/Jan/2018 04:59:39] "GET / HTTP/1.1" 200 12731
+[24/Jan/2018 05:06:56] "GET / HTTP/1.1" 200 15339
+[24/Jan/2018 05:28:02] "GET / HTTP/1.1" 200 15339
+[24/Jan/2018 05:36:36] "GET / HTTP/1.1" 200 15339
+[24/Jan/2018 06:23:36] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x01"\x01\x00\x01')
+[24/Jan/2018 06:23:36] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/root/.local/share/virtualenvs/pyServer-zuFnwE33/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 139, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[24/Jan/2018 06:23:42] code 400, message Bad request syntax ('USER test +iw test :Test Wuz Here')
+[24/Jan/2018 06:23:42] "USER test +iw test :Test Wuz Here" 400 -
+[24/Jan/2018 06:23:47] "GET / HTTP/1.1" 200 15339
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 332, in send_headers
+    self.send_preamble()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 252, in send_preamble
+    self._write(('HTTP/%s %s\r\n' % (self.http_version,self.status)).encode('iso-8859-1'))
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/lib/python3.5/socket.py", line 593, in write
+    return self._sock.send(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[24/Jan/2018 06:23:47] "GET / HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 332, in send_headers
+    self.send_preamble()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 252, in send_preamble
+    self._write(('HTTP/%s %s\r\n' % (self.http_version,self.status)).encode('iso-8859-1'))
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/lib/python3.5/socket.py", line 593, in write
+    return self._sock.send(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 141, in run
+    self.handle_error()
+  File "/root/.local/share/virtualenvs/pyServer-zuFnwE33/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 86, in handle_error
+    super().handle_error()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 368, in handle_error
+    self.finish_response()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 331, in send_headers
+    if not self.origin_server or self.client_is_modern():
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 344, in client_is_modern
+    return self.environ['SERVER_PROTOCOL'].upper() != 'HTTP/0.9'
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/root/.local/share/virtualenvs/pyServer-zuFnwE33/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 154, in handle
+    handler.run(self.server.get_app())
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 144, in run
+    self.close()
+  File "/usr/lib/python3.5/wsgiref/simple_server.py", line 36, in close
+    self.status.split(' ',1)[0], self.bytes_sent
+AttributeError: 'NoneType' object has no attribute 'split'
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/root/.local/share/virtualenvs/pyServer-zuFnwE33/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 139, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[24/Jan/2018 06:23:48] code 400, message Bad request syntax ('\x03printer')
+[24/Jan/2018 06:23:48] "printer" 400 -
+[24/Jan/2018 09:03:50] "GET / HTTP/1.1" 200 15339
+[24/Jan/2018 09:03:53] "GET / HTTP/1.1" 200 15339
+[24/Jan/2018 09:05:24] "GET / HTTP/1.1" 200 12066
+[24/Jan/2018 09:16:39] "GET / HTTP/1.1" 200 13626
+[24/Jan/2018 10:02:11] "GET / HTTP/1.1" 200 15384
+Not Found: /favicon.ico
+[24/Jan/2018 10:03:56] "GET /favicon.ico HTTP/1.1" 404 2306
+[24/Jan/2018 10:03:58] "GET / HTTP/1.1" 200 15384
+[24/Jan/2018 10:11:57] "GET / HTTP/1.1" 200 15384
+[24/Jan/2018 10:13:28] "GET / HTTP/1.1" 200 15384
+[24/Jan/2018 10:19:27] "GET / HTTP/1.1" 200 15384
+[24/Jan/2018 10:54:00] "GET / HTTP/1.1" 200 15384
+[24/Jan/2018 10:55:42] "GET / HTTP/1.1" 200 15384
+[24/Jan/2018 11:18:12] "GET / HTTP/1.1" 200 15384
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/pyServer-zuFnwE33/lib/python3.5/site-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/root/.local/share/virtualenvs/pyServer-zuFnwE33/lib/python3.5/site-packages/urllib3/connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/root/.local/share/virtualenvs/pyServer-zuFnwE33/lib/python3.5/site-packages/urllib3/connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.5/http/client.py", line 1197, in getresponse
+    response.begin()
+  File "/usr/lib/python3.5/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.5/http/client.py", line 266, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/pyServer-zuFnwE33/lib/python3.5/site-packages/requests/adapters.py", line 440, in send
+    timeout=timeout
+  File "/root/.local/share/virtualenvs/pyServer-zuFnwE33/lib/python3.5/site-packages/urllib3/connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/root/.local/share/virtualenvs/pyServer-zuFnwE33/lib/python3.5/site-packages/urllib3/util/retry.py", line 357, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/root/.local/share/virtualenvs/pyServer-zuFnwE33/lib/python3.5/site-packages/urllib3/packages/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/root/.local/share/virtualenvs/pyServer-zuFnwE33/lib/python3.5/site-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/root/.local/share/virtualenvs/pyServer-zuFnwE33/lib/python3.5/site-packages/urllib3/connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/root/.local/share/virtualenvs/pyServer-zuFnwE33/lib/python3.5/site-packages/urllib3/connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.5/http/client.py", line 1197, in getresponse
+    response.begin()
+  File "/usr/lib/python3.5/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.5/http/client.py", line 266, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/pyServer-zuFnwE33/lib/python3.5/site-packages/firebase_admin/db.py", line 774, in request
+    return super(_Client, self).request(method, url, **kwargs)
+  File "/root/.local/share/virtualenvs/pyServer-zuFnwE33/lib/python3.5/site-packages/firebase_admin/_http_client.py", line 84, in request
+    resp = self._session.request(method, self._base_url + url, **kwargs)
+  File "/root/.local/share/virtualenvs/pyServer-zuFnwE33/lib/python3.5/site-packages/google/auth/transport/requests.py", line 201, in request
+    method, url, data=data, headers=request_headers, **kwargs)
+  File "/root/.local/share/virtualenvs/pyServer-zuFnwE33/lib/python3.5/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/root/.local/share/virtualenvs/pyServer-zuFnwE33/lib/python3.5/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/root/.local/share/virtualenvs/pyServer-zuFnwE33/lib/python3.5/site-packages/requests/adapters.py", line 490, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/pyServer-zuFnwE33/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/root/.local/share/virtualenvs/pyServer-zuFnwE33/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/.local/share/virtualenvs/pyServer-zuFnwE33/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/project/pyServer/yurina/views.py", line 76, in index
+    redata = pydb.order_by_key().limit_to_last(15).get()
+  File "/root/.local/share/virtualenvs/pyServer-zuFnwE33/lib/python3.5/site-packages/firebase_admin/db.py", line 516, in get
+    result = self._client.body('get', self._pathurl, params=self._querystr)
+  File "/root/.local/share/virtualenvs/pyServer-zuFnwE33/lib/python3.5/site-packages/firebase_admin/_http_client.py", line 93, in body
+    resp = self.request(method, url, **kwargs)
+  File "/root/.local/share/virtualenvs/pyServer-zuFnwE33/lib/python3.5/site-packages/firebase_admin/db.py", line 776, in request
+    raise ApiCallError(self._extract_error_message(error), error)
+firebase_admin.db.ApiCallError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
+[24/Jan/2018 12:52:34] "GET / HTTP/1.1" 500 221381
+Invalid HTTP_HOST header: 'yurina'. You may need to add 'yurina' to ALLOWED_HOSTS.
+[24/Jan/2018 14:24:17] "GET /phpmyadmin/scripts/db_setup.init.php HTTP/1.0" 400 59684
+[24/Jan/2018 15:42:39] "GET / HTTP/1.1" 200 15384
+Not Found: /favicon.ico
+[24/Jan/2018 15:47:40] "GET /favicon.ico HTTP/1.1" 404 2306
+[24/Jan/2018 15:53:20] "GET / HTTP/1.1" 200 15472
+Invalid HTTP_HOST header: 'yurina'. You may need to add 'yurina' to ALLOWED_HOSTS.
+[24/Jan/2018 17:04:01] "HEAD /phpmyadmin/scripts/setup.php HTTP/1.0" 400 59735
+Not Found: /manager/html
+[24/Jan/2018 17:22:04] "GET /manager/html HTTP/1.1" 404 2309
+[24/Jan/2018 17:30:57] "GET / HTTP/1.1" 200 15472
+[24/Jan/2018 17:53:54] "GET / HTTP/1.1" 200 15472
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 24, 2018 - 03:24:33
+Django version 2.0.1, using settings 'pyServer.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+201801230013079847b
+201801230013080624b
+201801230013080963b
+201801230013081095b
+201801230013081206b
+201801230013081233b
+201801230013081425b
+201801230013081638b
+201801230013081731b
+201801230013081752b
+201801230013081992b
+201801230013082355b
+201801230013082607b
+201801230013082724b
+201801230013082859b
+201801230013079847b
+201801230013080624b
+201801230013080963b
+201801230013081095b
+201801230013081206b
+201801230013081233b
+201801230013081425b
+201801230013081638b
+201801230013081731b
+201801230013081752b
+201801230013081992b
+201801230013082355b
+201801230013082607b
+201801230013082724b
+201801230013082859b
+201801230013079847b
+201801230013080624b
+201801230013080963b
+201801230013081095b
+201801230013081206b
+201801230013081233b
+201801230013081425b
+201801230013081638b
+201801230013081731b
+201801230013081752b
+201801230013081992b
+201801230013082355b
+201801230013082607b
+201801230013082724b
+201801230013082859b
+201801230013079847b
+201801230013080624b
+201801230013080963b
+201801230013081095b
+201801230013081206b
+201801230013081233b
+201801230013081425b
+201801230013081638b
+201801230013081731b
+201801230013081752b
+201801230013081992b
+201801230013082355b
+201801230013082607b
+201801230013082724b
+201801230013082859b
+201801240013094915b
+error
+201801240013095062b
+201801240013095227b
+201801240013095284b
+201801240013095377b
+201801240013095584b
+201801240013095632b
+201801240013096403b
+error
+201801240013096592b
+201801240013096640b
+201801240013097501b
+error
+201801240013097525b
+201801240013097570b
+201801240013097582b
+201801240013097678b
+error
+201801240013094915b
+error
+201801240013095062b
+201801240013095227b
+201801240013095284b
+201801240013095377b
+201801240013095584b
+201801240013095632b
+201801240013096403b
+error
+201801240013096592b
+201801240013096640b
+201801240013097501b
+error
+201801240013097525b
+201801240013097570b
+201801240013097582b
+201801240013097678b
+error
+201801240013094915b
+error
+201801240013095062b
+201801240013095227b
+201801240013095284b
+201801240013095377b
+201801240013095584b
+201801240013095632b
+201801240013096403b
+error
+201801240013096592b
+201801240013096640b
+201801240013097501b
+error
+201801240013097525b
+201801240013097570b
+201801240013097582b
+201801240013097678b
+error
+----------------------------------------
+Exception happened during processing of request from ('164.52.24.140', 41601)
+----------------------------------------
+201801240013094915b
+error
+201801240013095062b
+201801240013095227b
+201801240013095284b
+201801240013095377b
+201801240013095584b
+201801240013095632b
+201801240013096403b
+error
+201801240013096592b
+201801240013096640b
+201801240013097501b
+error
+201801240013097525b
+201801240013097570b
+201801240013097582b
+201801240013097678b
+error
+----------------------------------------
+Exception happened during processing of request from ('164.52.24.140', 56548)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('164.52.24.140', 37030)
+----------------------------------------
+201801240013094915b
+error
+201801240013095062b
+201801240013095227b
+201801240013095284b
+201801240013095377b
+201801240013095584b
+201801240013095632b
+201801240013096403b
+error
+201801240013096592b
+201801240013096640b
+201801240013097501b
+error
+201801240013097525b
+201801240013097570b
+201801240013097582b
+201801240013097678b
+error
+201801240013094915b
+error
+201801240013095062b
+201801240013095227b
+201801240013095284b
+201801240013095377b
+201801240013095584b
+201801240013095632b
+201801240013096403b
+error
+201801240013096592b
+201801240013096640b
+201801240013097501b
+error
+201801240013097525b
+201801240013097570b
+201801240013097582b
+201801240013097678b
+error
+201801240013104500b
+error
+201801240013104608b
+error
+201801240013104704b
+error
+201801240013104788b
+201801240013105250b
+error
+201801240013105436b
+error
+201801240013105712b
+201801240013105874b
+error
+201801240013105886b
+error
+201801240013105904b
+201801240013105916b
+201801240013106231b
+error
+201801240013106465b
+201801240013106477b
+error
+201801240013106564b
+201801240013103162b
+201801240013103255b
+201801240013103522b
+201801240013104182b
+201801240013104188b
+201801240013104788b
+201801240013105712b
+201801240013105904b
+201801240013105916b
+201801240013106465b
+201801240013106564b
+201801240013107308b
+201801240013106231b
+201801240013106465b
+201801240013106477b
+201801240013106564b
+201801240013107170b
+201801240013107308b
+201801240013107587b
+201801240013107686b
+201801240013107851b
+201801240013107926b
+201801240013108010b
+201801240013108361b
+201801240013108469b
+201801240013108706b
+201801240013108958b
+201801240013106231b
+201801240013106465b
+201801240013106477b
+201801240013106564b
+201801240013107170b
+201801240013107308b
+201801240013107587b
+201801240013107686b
+201801240013107851b
+201801240013107926b
+201801240013108010b
+201801240013108361b
+201801240013108469b
+201801240013108706b
+201801240013108958b
+201801240013106231b
+201801240013106465b
+201801240013106477b
+201801240013106564b
+201801240013107170b
+201801240013107308b
+201801240013107587b
+201801240013107686b
+201801240013107851b
+201801240013107926b
+201801240013108010b
+201801240013108361b
+201801240013108469b
+201801240013108706b
+201801240013108958b
+201801240013106231b
+201801240013106465b
+201801240013106477b
+201801240013106564b
+201801240013107170b
+201801240013107308b
+201801240013107587b
+201801240013107686b
+201801240013107851b
+201801240013107926b
+201801240013108010b
+201801240013108361b
+201801240013108469b
+201801240013108706b
+201801240013108958b
+201801240013106231b
+201801240013106465b
+201801240013106477b
+201801240013106564b
+201801240013107170b
+201801240013107308b
+201801240013107587b
+201801240013107686b
+201801240013107851b
+201801240013107926b
+201801240013108010b
+201801240013108361b
+201801240013108469b
+201801240013108706b
+201801240013108958b
+201801240013106231b
+201801240013106465b
+201801240013106477b
+201801240013106564b
+201801240013107170b
+201801240013107308b
+201801240013107587b
+201801240013107686b
+201801240013107851b
+201801240013107926b
+201801240013108010b
+201801240013108361b
+201801240013108469b
+201801240013108706b
+201801240013108958b
+201801240013106231b
+201801240013106465b
+201801240013106477b
+201801240013106564b
+201801240013107170b
+201801240013107308b
+201801240013107587b
+201801240013107686b
+201801240013107851b
+201801240013107926b
+201801240013108010b
+201801240013108361b
+201801240013108469b
+201801240013108706b
+201801240013108958b
+201801240013106231b
+201801240013106465b
+201801240013106477b
+201801240013106564b
+201801240013107170b
+201801240013107308b
+201801240013107587b
+201801240013107686b
+201801240013107851b
+201801240013107926b
+201801240013108010b
+201801240013108361b
+201801240013108469b
+201801240013108706b
+201801240013108958b
+201801240013106231b
+201801240013106465b
+201801240013106477b
+201801240013106564b
+201801240013107170b
+201801240013107308b
+201801240013107587b
+201801240013107686b
+201801240013107851b
+201801240013107926b
+201801240013108010b
+201801240013108361b
+201801240013108469b
+201801240013108706b
+201801240013108958b
+201801240013116341b
+201801240013116410b
+error
+201801240013116647b
+201801240013116746b
+201801240013116764b
+error
+201801240013117115b
+201801240013117355b
+201801240013117628b
+201801240013117661b
+201801240013117886b
+201801240013117958b
+201801240013118144b
+201801250013119050b
+error
+201801250013119140b
+201801250013119323b
+201801240013116341b
+201801240013116410b
+error
+201801240013116647b
+201801240013116746b
+201801240013116764b
+error
+201801240013117115b
+201801240013117355b
+201801240013117628b
+201801240013117661b
+201801240013117886b
+201801240013117958b
+201801240013118144b
+201801250013119050b
+error
+201801250013119140b
+201801250013119323b
+201801240013116341b
+201801240013116410b
+error
+201801240013116647b
+201801240013116746b
+201801240013116764b
+error
+201801240013117115b
+201801240013117355b
+201801240013117628b
+201801240013117661b
+201801240013117886b
+201801240013117958b
+201801240013118144b
+201801250013119050b
+error
+201801250013119140b
+201801250013119323b
+201801240013116341b
+201801240013116410b
+error
+201801240013116647b
+201801240013116746b[24/Jan/2018 17:53:57] "GET / HTTP/1.1" 200 15472
+[24/Jan/2018 19:56:59] "GET / HTTP/1.0" 200 15472
+[24/Jan/2018 19:57:24] "GET / HTTP/1.1" 200 15472
+[24/Jan/2018 21:39:24] "GET / HTTP/1.1" 200 15472
+[24/Jan/2018 23:58:38] "GET / HTTP/1.1" 200 14931
+Invalid HTTP_HOST header: 'yurina'. You may need to add 'yurina' to ALLOWED_HOSTS.
+[25/Jan/2018 01:19:18] "HEAD /pma/scripts/setup.php HTTP/1.0" 400 59660
+Invalid HTTP_HOST header: 'yurina'. You may need to add 'yurina' to ALLOWED_HOSTS.
+[25/Jan/2018 01:40:27] "GET /pma/scripts/setup.php HTTP/1.0" 400 59519
+Invalid HTTP_HOST header: 'yurina'. You may need to add 'yurina' to ALLOWED_HOSTS.
+[25/Jan/2018 02:39:31] "GET / HTTP/1.0" 400 59410
+[25/Jan/2018 03:46:31] "GET / HTTP/1.1" 200 14931
+Not Found: /favicon.ico
+[25/Jan/2018 03:47:13] "GET /favicon.ico HTTP/1.1" 404 2306
+[25/Jan/2018 03:47:15] "GET / HTTP/1.1" 200 14931
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/root/.local/share/virtualenvs/pyServer-zuFnwE33/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 139, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+Invalid HTTP_HOST header: 'httpheader.net'. You may need to add 'httpheader.net' to ALLOWED_HOSTS.
+[25/Jan/2018 07:16:28] "GET http://httpheader.net/ HTTP/1.1" 400 61032
+[25/Jan/2018 07:16:39] code 400, message Bad request syntax ('\x04\x01\x00PÀcö60\x00')
+[25/Jan/2018 07:16:39] " PÀcö60 " 400 -
+[25/Jan/2018 07:16:50] code 400, message Bad request syntax ('\x05\x01\x00')
+[25/Jan/2018 07:16:50] " " 400 -
+[25/Jan/2018 07:17:00] code 400, message Bad request syntax ('\x05\x01\x00')
+[25/Jan/2018 07:17:00] " " 400 -
+[25/Jan/2018 09:15:46] "GET / HTTP/1.1" 200 14931
+Not Found: /index.action
+[25/Jan/2018 09:15:47] "GET /index.action HTTP/1.1" 404 2309
+Invalid HTTP_HOST header: 'yurina'. You may need to add 'yurina' to ALLOWED_HOSTS.
+[25/Jan/2018 10:08:27] "GET / HTTP/1.0" 400 59410

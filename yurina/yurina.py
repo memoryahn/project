@@ -151,14 +151,14 @@ def main(ch):
         #         "chat.postMessage",
         #         channel=ch,
         #         text=textmsg,
-        #         as_user='false'
+        #         as_user='true'
         #     )
     
     slack.api_call(
         "chat.postMessage",
         channel=ch,
         text='다 됐어요. 검색결과 입니다',
-        as_user='false'
+        as_user='true'
     )
     try:
         open_output_file = open(text_file_name, 'w',-1,"utf-8")
@@ -198,7 +198,7 @@ def slacksend(ch):
     "chat.postMessage",
     channel=ch,
     text=textmsg,
-    as_user='false'
+    as_user='true'
     )
     return
 def sendmsg(ch,msg):
@@ -209,7 +209,7 @@ def sendmsg(ch,msg):
         "chat.postMessage",
         channel=ch,
         text='멀티프로세싱 출발 대결을 시작해보자',
-        as_user='false'
+        as_user='true'
         )
     elif msg == '유리나':
         rand=['저 부르셨어요?','저요?','저 왜요?','저를 언급하셨네요']
@@ -217,14 +217,14 @@ def sendmsg(ch,msg):
         "chat.postMessage",
         channel=ch,
         text=random.choice(rand),
-        as_user='false'
+        as_user='true'
         )
     elif msg == '사망':
         slack.api_call(
         "chat.postMessage",
         channel=ch,
         text='유리나님이 사망하셨습니다. 곧 다시 태어납니다',
-        as_user='false'
+        as_user='true'
         )
     elif msg == '입장':
         rand = ['유리나가 왔어요~','Im back!','저 살아왔어요 ㅠㅠ','유리나 입장!']
@@ -232,7 +232,7 @@ def sendmsg(ch,msg):
         "chat.postMessage",
         channel=ch,
         text=random.choice(rand),
-        as_user='false'
+        as_user='true'
         )
     elif msg == 'ㅋㅋ':
         rand = ['ㅋㅋ','ㅎㅎ','ㅋㅋㅋㅋㅋ','히히','ㅎㅎㅎㅎ']
@@ -240,7 +240,7 @@ def sendmsg(ch,msg):
         "chat.postMessage",
         channel=ch,
         text=random.choice(rand),
-        as_user='false'
+        as_user='true'
         )
     elif msg == '명령어':
         rand = ("유리나의 명령어: '엠팍','ㅋ','ㅎ','유리나','명령어'")
@@ -248,7 +248,7 @@ def sendmsg(ch,msg):
         "chat.postMessage",
         channel=ch,
         text=rand,
-        as_user='false'
+        as_user='true'
         )    
 if __name__ == '__main__':        
     token = os.environ['slacktoken']#custom
@@ -299,5 +299,5 @@ if __name__ == '__main__':
     #         "chat.postMessage",
     #         channel='channel',
     #         text='유리나 봇이 사망하였습니다 ㅠㅠ',
-    #         as_user='false'
+    #         as_user='true'
     #         )
